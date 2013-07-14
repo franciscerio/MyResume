@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/ic_menu_call"
+        android:showAsAction="always"
+        android:title="@string/phone"/>
+     <item
+        android:id="@+id/mail"
+        android:icon="@drawable/ic_menu_compose"
+        android:showAsAction="always"
+        android:title="@string/phone"/>
+
+</menu>

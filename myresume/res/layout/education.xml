@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp" >
+        
+        <!-- 
+        MetricBPO
+        #################################################################
+        -->
+        
+        <TextView
+            android:id="@+id/usjr"
+            style="@style/SectionFont.Company"
+            android:text="@string/textview_usjr" />
+        
+        <TextView
+            android:id="@+id/usjr_duration"
+            style="@style/SectionFont"
+            android:layout_alignLeft="@+id/usjr"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/usjr_graduate"
+            android:paddingBottom="15dp"
+            android:text="@string/textview_bsit_duration"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/usjr_graduate"
+            style="@style/SectionFont.Duration"
+            android:layout_below="@+id/textview_irender_task"
+            android:text="@string/textview_graduate" />
+        
+        <!-- 
+        Work From Home
+        #################################################################
+        -->
+        
+        <!-- 
+        AmeeraTel Inc
+        #################################################################
+        -->
+        
+        <!-- 
+        Drumbi
+        #################################################################
+        -->
+        
+        <!-- 
+        Trax Technologies
+        #################################################################
+        -->
+
+        <TextView
+            android:id="@+id/textview_irender_task"
+            style="@style/Education"
+            android:layout_below="@+id/usjr"
+            android:text="@string/textview_bsit" />
+        
+    </RelativeLayout>
+    
+
+</ScrollView>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp" >
+        
+        <!-- 
+        MetricBPO
+        #################################################################
+        -->
+        
+        <TextView
+            android:id="@+id/irender"
+            style="@style/SectionFont.Company"
+            android:text="@string/textview_irender" />
+        
+        <TextView
+            style="@style/SectionFont.Duration"
+            android:layout_alignBaseline="@+id/irender"
+            android:layout_alignParentRight="true"
+            android:text="@string/textview_irender_duration" />
+
+        <TextView
+            android:id="@+id/textview_irender_task"
+            style="@style/Tasks"
+            android:layout_below="@+id/div1"
+            android:text="@string/textview_irender_task" />
+        
+        <TextView
+            android:id="@+id/androiddev1"
+            style="@style/SectionFont.Position"
+            android:layout_below="@+id/irender"
+            android:text="@string/textview_androiddev" />
+        
+        <View
+            android:id="@+id/div1"
+            style="@style/SectionDivider"
+            android:layout_below="@+id/androiddev1" />
+        
+        <!-- 
+        Work From Home
+        #################################################################
+        -->
+        
+        <TextView
+            android:id="@+id/workfromhome"
+            style="@style/SectionFont.Company"
+            android:layout_below="@+id/textview_irender_task"
+            android:text="@string/textview_workfromhome" />
+        
+        <TextView
+            style="@style/SectionFont.Duration"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@+id/workfromhome"
+            android:text="@string/textview_workfromhome_duration" />
+        
+        <TextView
+            android:id="@+id/androiddev2"
+            style="@style/SectionFont.Position"
+            android:layout_below="@+id/workfromhome"
+            android:text="@string/textview_androiddev" />
+        
+        <View
+            android:id="@+id/div2"
+            style="@style/SectionDivider"
+            android:layout_below="@+id/androiddev2" />
+        
+        <TextView
+            android:id="@+id/workfromhome_tasks"
+            style="@style/Tasks"
+            android:layout_below="@+id/div2"
+            android:text="@string/textview_workfromhome_tasks" />
+        
+        <!-- 
+        AmeeraTel Inc
+        #################################################################
+        -->
+        
+        <TextView
+            android:id="@+id/ameeratel"
+            style="@style/SectionFont.Company"
+            android:layout_below="@+id/workfromhome_tasks"
+            android:text="@string/textview_ojt" />
+        
+        <TextView
+            style="@style/SectionFont.Duration"
+            android:layout_alignBaseline="@+id/ameeratel"
+            android:layout_alignParentRight="true"
+            android:text="@string/textview_ojt_duration" />
+        
+        <TextView
+            android:id="@+id/androiddev3"
+            style="@style/SectionFont.Position"
+            android:layout_below="@+id/ameeratel"
+            android:text="@string/textview_webdeveloper" />
+        
+        <View
+            android:id="@+id/div3"
+            style="@style/SectionDivider"
+            android:layout_below="@+id/androiddev3" />
+        
+        <!-- 
+        Drumbi
+        #################################################################
+        -->
+        
+        <!-- 
+        Trax Technologies
+        #################################################################
+        -->
+        
+    </RelativeLayout>
+    
+
+</ScrollView>

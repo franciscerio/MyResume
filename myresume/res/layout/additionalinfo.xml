@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp" >
+        
+        <!-- 
+        MetricBPO
+        #################################################################
+        -->
+        
+        <TextView
+            android:id="@+id/irender"
+            style="@style/SectionFont.Company"
+            android:text="@string/info_interests" />
+
+        <TextView
+            android:id="@+id/textview_irender_task"
+            style="@style/Tasks"
+            android:layout_below="@+id/div1"
+            android:text="@string/info_interests_description" />
+        
+        <View
+            android:id="@+id/div1"
+            style="@style/SectionDivider"
+            android:layout_below="@+id/irender" />
+        
+        <!-- 
+        Work From Home
+        #################################################################
+        -->
+        
+        <TextView
+            android:id="@+id/workfromhome"
+            style="@style/SectionFont.Company"
+            android:layout_below="@+id/txtName"
+            android:text="@string/info_birthday" />
+        
+        <TextView
+            android:id="@+id/androiddev2"
+            style="@style/Tasks"
+            android:layout_below="@+id/workfromhome"
+            android:text="@string/info_birthday_date" />
+        
+        <!-- 
+        AmeeraTel Inc
+        #################################################################
+        -->
+        
+        <TextView
+            android:id="@+id/ameeratel"
+            style="@style/SectionFont.Company"
+            android:layout_below="@+id/androiddev2"
+            android:text="@string/info_marital" />
+        
+        <TextView
+            android:id="@+id/androiddev3"
+            style="@style/Tasks"
+            android:layout_below="@+id/ameeratel"
+            android:text="@string/info_status" />
+        
+        <!-- 
+        Drumbi
+        #################################################################
+        -->
+        
+        <!-- 
+        Trax Technologies
+        #################################################################
+        -->
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textview_irender_task"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/info_personal_details"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff00a3d4"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/View01"
+            style="@style/SectionDivider"
+            android:layout_below="@+id/txtName" />
+        
+    </RelativeLayout>
+    
+
+</ScrollView>
